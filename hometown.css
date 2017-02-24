@@ -1,0 +1,70 @@
+/*styles used for design face*/
+#contentMain {min-height: 500px;}
+body{min-height: 1000px;}
+
+
+
+
+/*end testing styles*/
+
+/*Body*/
+body {
+  background: -webkit-linear-gradient(top, white, #6A9A66); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom, white, #6A9A66); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom, white, #6A9A66); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom, white, #6A9A66); /* Standard syntax */
+font-family: caslon, arial, sans-serif;
+font-size: 1.1em;}
+
+#contentMain {padding: 1px 20px 20px 20px;
+        background-color: #E0E2E0;}
+
+/*End Body*/
+
+/*Header*/
+.header {
+ font-style: italic;
+ font-family: CenturyGothic, AppleGothic;
+ font-size: 2.75em;
+ text-align: center;
+ background-color: #6A9A66;
+ color: white;
+ border-style: solid; border-radius: 5px 5px 5px 5px; border-color: white;
+ margin-bottom: -5px;
+}
+/*end header*/
+
+/*Wrapper*/
+#wrapper { margin: auto; width: 100%;
+         background-color: #F0F0F0;
+        box-shadow: 2px 2px 2px #2e0000; border-radius: 5px 5px 5px 5px;
+        margin-top: -25px;}
+/*End Wrapper*/
+
+/* Navigation */       
+nav {width: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #6A9A66;
+    border-style: solid; border-radius: 5px 5px 5px 5px; border-color: white;}
+nav ul { text-align: center;
+        padding: 10px 0px 10px 0px;
+        font-size: 1.2em;
+        list-style-type: none;
+        display: block;}
+nav li { display: inline; padding-top: 0; padding-bottom: 0;
+padding-left: 0.75em; padding-right: 0.75em;}
+nav a { text-decoration:  none; }
+
+nav a:link { color: white;}
+nav a:visited { color: white; }
+nav a:hover { color: green; }
+/*end navigation*/
+
+/* footer */
+footer {background-color: #6A9A66; color: #6A9A66; padding: 20px; box-shadow: 5px 5px 5px #2e0000; text-align: center; border-radius: 5px 5px 5px 5px; border-style: solid; border-color: white; }
+
+#footerNav {
+    border: hidden;
+}
+/* end footer */
